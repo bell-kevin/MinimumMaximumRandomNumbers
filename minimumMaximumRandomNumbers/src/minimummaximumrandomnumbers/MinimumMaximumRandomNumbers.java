@@ -6,7 +6,6 @@ import java.util.Random;
 public class MinimumMaximumRandomNumbers {
 
     public static void main(String[] args) {
-        // TODO code application logic here
         System.out.print("Random Number in a Range by Kevin Bell \n");
         Scanner computerKeyboardInput = new Scanner(System.in);
         Random rng = new Random();
