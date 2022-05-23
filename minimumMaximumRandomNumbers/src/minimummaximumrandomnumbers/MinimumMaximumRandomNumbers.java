@@ -15,7 +15,7 @@ public class MinimumMaximumRandomNumbers {
         System.out.print("Please enter a maximum value: ");
         String maximumInputString = computerKeyboardInput.next();
         int maximumInput = Integer.parseInt(maximumInputString);
-        if (minimumInput > maximumInput) {
+        while (minimumInput > maximumInput) {
             System.out.print("Please enter a minimum value: ");
             minimumInputString = computerKeyboardInput.next();
             minimumInput = Integer.parseInt(minimumInputString);
